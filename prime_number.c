@@ -3,33 +3,12 @@
 
 #define	MAX_NUM	1000000
 
-
-int arr[MAX_NUM + 1] = {0,};
-
-void setArr()
-{
-	int i, j;
-	for(i = 2; i <= MAX_NUM; i++)	
-		arr[i] = 1;
-	
-	for(i = 2; i <= MAX_NUM; i++)
-		if(arr[i] != 0)
-			for(j = i + i; j <= MAX_NUM; j += i)
-				arr[j] = 0;
-}
-
 int is_prime(int n)
 {
-	if(n == 1)
-	{
-		setArr();
-		
-		return 0;
-	}
+    // Enter your Code Here
 	
-	if(!arr[n])
-		return 0;
-		
+	
+
     return 1;
 }
 

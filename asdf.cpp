@@ -3,7 +3,6 @@
 
 #define	MAX_NUM	1000000
 
-
 int arr[MAX_NUM + 1] = {0,};
 
 void setArr()
